@@ -25,6 +25,16 @@ header {
     margin-bottom: 1em;
 
 }
+.sub-head-1{
+    font-weight: bold;
+    text-shadow: 0px 5px 2px lightgray;
+
+}
+.pg-2{
+    color: #504e4e;
+
+    text-shadow: 0px 10px 2px lightgray;
+}
 .banner{
     align-items: left;
     height: 326px;
@@ -125,6 +135,7 @@ header {
     display: flex;
     justify-self: center;
     gap: 20px;
+    padding-top: 25px;
 }
 .card-1{
     width: 346.67px;
@@ -166,8 +177,9 @@ header {
     position: absolute;
     top: auto;
 }
-.pg-4{
+p{
     line-height: 24px;
+    color: #646363;
 }
 .pg-5{
     position: absolute;
@@ -179,6 +191,40 @@ header {
     position: absolute;
     top: auto;
     
+}
+.sub-cont-2{
+    margin-top: 5%;
+}
+.ncard-1{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 2px lightgray;
+    padding: 48px 48px;
+    justify-content: space-between;
+}
+.ncard-cont{
+    width: 744px;
+    height: 290px;
+}
+.ncard-sub-cont{
+    display: flex;
+    gap: 10px;
+}
+.png-4{
+    border-radius: 25px;
+}
+.ncard-h{
+    margin-top: 0;
+}
+.pg-6{
+    margin-top: 0;
+}
+.news-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 20px;
 }
 footer {
 
