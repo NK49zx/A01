@@ -63,13 +63,16 @@ header {
     align-self: center;
 }
 
-
+main{
+    width: 1280px;
+    margin: 0 auto;
+}
 
 .vis-of-future{
-    width: 1280px;
     height: 765px;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 5%;
+    
 }
 .sub-cont-1{
     height: 120px
@@ -227,13 +230,69 @@ p{
     width: 122px;
     height: 50px;
     padding: 15px 15px;
-    background-color: green;
+    background-color: #006A50;
     border-radius: 10px;
     font-size: 16px;
     color: white;
     border: 0cm;
     margin-top: 0em;
     
+}
+.sub-head-3{
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+}
+.donate-div{
+    margin-top: 5%;
+    text-align: center;
+    height: 464px;
+    
+}
+.donate-card{
+    width: 1071px;
+    height: 128px;
+    margin-top: 3%;
+    display: flex;
+    gap: 1em;
+    justify-content: space-evenly;
+    justify-self: center;
+}
+.donate-card-1{
+    width: 200px;
+    height: 88px;
+    border-radius: 20px;
+    background-color: white ;
+    padding: 40px 40px;
+    border: 2px solid lightgray;
+    border-color: 2px #c3c6ce;
+    place-content: center;
+    transition: 0.5s ease-out;
+}
+.donate-card-1:hover{
+    background-color: #C6E4D6;
+}
+#inp-field{
+    text-align: center;
+    height: 64px;
+    width: 1032px;
+    margin-top: 6%;
+    border: 2px solid lightgray;
+}
+.btn-6{
+    width: 134px;
+    height: 50px;
+    padding: 17px 17px;
+    background-color: #006A50;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    border: 0cm;
+    margin-top: 1.5em;
+    
+}
+.newsletter{
+    width: 200px;
+    height: 88px;
 }
 footer {
 
